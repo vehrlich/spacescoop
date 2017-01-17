@@ -1,164 +1,205 @@
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-13 12:23+0100\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-
-msgid "Stories"
-msgstr "صور"
-
-msgid "Pictures"
-msgstr "صور"
-
-msgid "Space Words"
-msgstr "مصطلحات فضائية"
-
-msgid "Topics"
-msgstr "مواضيع"
-
-msgid "Search"
-msgstr "بحث"
-
-msgid "News from Across the Universe"
-msgstr "أخبار من الكون"
-
-msgid "Discover more awesome topics!"
-msgstr "اكتشف مواضيع جديدة و رائعة"
-
-msgid "Still curious? Learn more..."
-msgstr "مازلت فضوليا؟ اعرف المزيد..."
-
-msgid "Discover more Astronomy"
-msgstr "اكتشف المزيد حول الفضاء والفلك"
-
-msgid "Inspiring a New Generation of Space Explorers"
-msgstr "الهام جيل جديد من مستكشفي الفضاء"
-
-msgid "Space Scoop Friends"
-msgstr "أصدقاء (أخبار الفضاء)"
-
-msgid "Contact Us"
-msgstr "اتصل بنا"
-
-msgid "Bringing News from across the Universe to kids around the world"
-msgstr "جلب الأخبار من مختلف أنحاء الكون إلى الأطفال في مختلف أنحاء العالم"
-
-msgid "Cool Fact"
-msgstr "حقيقة مثيرة"
-
-msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
-msgstr "أخبار الفضاء هذه تستند على بيان صحفي صادر عن INSTITUTION_NAME"
-
-msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
-msgstr "أخبار الفضاء هذه تستند على بيان صحفي صادر عن INSTITUTION_NAME"
-
-msgid "Image"
-msgstr "صورة"
-
-msgid "Print Friendly Version"
-msgstr "نسخة للطباعة"
-
-msgid "Share"
-msgstr "مشاركة"
-
-msgid "Related Space Scoops"
-msgstr "ذات صلة بأخبار الفضاء"
-
-msgid "More Space Scoops"
-msgstr "المزيد من أخبار الفضاء"
-
-msgid "Partner"
-msgstr "شريك"
-
-msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
-msgstr "(إقرأ المزيد من أخبار الفضاء) تستند على بيان صحفي صادر عن  INSTITUTION_NAME"
-
-msgid "[Learn more] about INSTITUTION_NAME"
-msgstr "(اعرف المزيد) حول INSTITUTION|_NAME"
-
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:14
 msgid "Newsletter"
 msgstr "النشرة الإخبارية"
 
-msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:25
+msgid ""
+"Subscribe for the newsletter now and receive all the latest news every "
+"month!!"
 msgstr "اشترك بالتشرة الإخبارية الأن,واحصل على أحدث الأخبار شهريا"
 
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:27
 msgid "Write your name here..."
 msgstr "اكتب اسمك هنا..."
 
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:30
 msgid "Write your e-mail here..."
 msgstr "اكتب بريدك الإلكتروني هنا...."
 
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:37
 msgid "Subscribe"
 msgstr "اشترك"
 
-msgid "No articles are available."
-msgstr "لا يوجد مقالات متاحة."
+#: spacescoop/search/templates/search/search.html:22
+#: spacescoop/search/templates/search/search.html:27 templates/base.html:79
+msgid "Search"
+msgstr "بحث"
 
+#: spacescoop/search/templates/search/search.html:45
+#: spacescoop/search/templates/search/search.html:58
 msgid "Sorry, no results found that match your query."
 msgstr "عذرا, لا يوجد نتائج تطابق تساؤلك"
 
-msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
-msgstr "هذه الصفحة غير متوفرة بلغتك بعد, إن كنت تريد تقديم ترجمة الرجاء الإتصال بنا عن طريق CONTACT_ADDRESS"
+#: spacescoop/templates/spacescoop/home.html:15
+msgid "News from Across the Universe"
+msgstr "أخبار من الكون"
 
-msgid "Atoms and Molecules"
-msgstr "الذرات والجزيئات"
+#: spacescoop/templates/spacescoop/home.html:45
+msgid "Discover more awesome topics!"
+msgstr "اكتشف مواضيع جديدة و رائعة"
 
-msgid "Cosmology"
-msgstr "علم الكونيات"
+#: templates/base.html:59
+msgid "Pictures"
+msgstr "صور"
 
-msgid "Black Holes"
-msgstr "الثفوب السوداء"
+#: templates/base.html:65
+msgid "Space Words"
+msgstr "مصطلحات فضائية"
 
-msgid "Dark Matter"
-msgstr "المادة المظلمة"
+#: templates/base.html:71
+msgid "Topics"
+msgstr "مواضيع"
 
-msgid "Missions"
-msgstr "البعثات (المهمات)"
+#: templates/base.html:103
+msgid "Still curious? Learn more..."
+msgstr "...مازلت فضوليا؟ اعرف المزيد"
 
-msgid "Technology"
-msgstr "تكنولوجيا"
+#: templates/base.html:104
+#, fuzzy
+#| msgid "Related Space Scoops"
+msgid "What is Space Scoop?"
+msgstr "ذات صلة بأخبار الفضاء"
 
-msgid "Gravity"
-msgstr "الجاذبية"
+#: templates/base.html:105
+msgid "Discover more Astronomy"
+msgstr "اكتشف المزيد حول الفضاء والفلك"
 
-msgid "Solar System"
-msgstr "المجموعة الشمسية"
+#: templates/base.html:106
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "الهام جيل جديد من مستكشفي الفضاء"
 
-msgid "Planets"
-msgstr "الكواكب"
+#: templates/base.html:107
+msgid "Space Scoop Friends"
+msgstr "أصدقاء (أخبار الفضاء)"
 
-msgid "Comets"
-msgstr "المذنبات"
+#: templates/base.html:111
+msgid "Contact Us"
+msgstr "اتصل بنا"
 
-msgid "Asteroids"
-msgstr "الكويكبات"
+#: templates/base.html:138
+msgid ""
+"This website was produced by funding from the European Community's Horizon "
+"2020 Programme under grant agreement n° 638653"
+msgstr ""
+"تم إطلاق هذا الموقع بتمويل من برنامج الاتحاد الأوروبي (Horizon 2020) بموجب "
+"إتفاقية المنحة (n"
 
-msgid "Supernova Remnants"
-msgstr "بقايا المستعرات العظمى"
+#: templates/warning_fallback_language.html:4
+#, fuzzy
+#| msgid ""
+#| "This page isn't available in your language yet, if you'd like to provide "
+#| "a translation please contact us at CONTACT_ADDRESS"
+msgid ""
+"This page isn't available in your language yet, if you'd like to provide a "
+"translation please contact us at "
+msgstr ""
+"هذه الصفحة غير متوفرة بلغتك بعد, إن كنت تريد تقديم ترجمة الرجاء الإتصال بنا "
+"عن طريق CONTACT_ADDRESS"
 
-msgid "Planetary Nebulae"
-msgstr "سديم كوكبي"
+#~ msgid "Stories"
+#~ msgstr "صور"
 
-msgid "Star Forming Nebulae"
-msgstr "سديم التشكيل النجمي"
+#~ msgid "Bringing News from across the Universe to kids around the world"
+#~ msgstr "جلب الأخبار من مختلف أنحاء الكون إلى الأطفال في مختلف أنحاء العالم"
 
-msgid "Irregular Galaxies"
-msgstr "المجرات غير المنتظمة"
+#~ msgid "Cool Fact"
+#~ msgstr "حقيقة مثيرة"
 
-msgid "Elliptical Galaxies"
-msgstr "المجرات الإهليلجية"
+#~ msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+#~ msgstr "أخبار الفضاء هذه تستند على بيان صحفي صادر عن INSTITUTION_NAME"
 
-msgid "Spiral Galaxies"
-msgstr "المجرات الحلزونية"
+#~ msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+#~ msgstr "أخبار الفضاء هذه تستند على بيان صحفي صادر عن INSTITUTION_NAME"
 
-msgid "Stars"
-msgstr "النجوم"
+#~ msgid "Image"
+#~ msgstr "صورة"
 
-msgid "Open clusters"
-msgstr "العناقيد النجمية المفتوحة"
+#~ msgid "Print Friendly Version"
+#~ msgstr "نسخة للطباعة"
 
-msgid "Globular clusters"
-msgstr "العناقيد النجمية المغلقة"
+#~ msgid "Share"
+#~ msgstr "مشاركة"
 
-msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
-msgstr "تم إطلاق هذا الموقع بتمويل من برنامج الاتحاد الأوروبي (Horizon 2020) بموجب إتفاقية المنحة (n"
+#~ msgid "More Space Scoops"
+#~ msgstr "المزيد من أخبار الفضاء"
+
+#~ msgid "Partner"
+#~ msgstr "شريك"
+
+#~ msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+#~ msgstr ""
+#~ "(إقرأ المزيد من أخبار الفضاء) تستند على بيان صحفي صادر عن  "
+#~ "INSTITUTION_NAME"
+
+#~ msgid "[Learn more] about INSTITUTION_NAME"
+#~ msgstr "(اعرف المزيد) حول INSTITUTION|_NAME"
+
+#~ msgid "No articles are available."
+#~ msgstr "لا يوجد مقالات متاحة."
+
+#~ msgid "Atoms and Molecules"
+#~ msgstr "الذرات والجزيئات"
+
+#~ msgid "Cosmology"
+#~ msgstr "علم الكونيات"
+
+#~ msgid "Black Holes"
+#~ msgstr "الثفوب السوداء"
+
+#~ msgid "Dark Matter"
+#~ msgstr "المادة المظلمة"
+
+#~ msgid "Missions"
+#~ msgstr "البعثات (المهمات)"
+
+#~ msgid "Technology"
+#~ msgstr "تكنولوجيا"
+
+#~ msgid "Gravity"
+#~ msgstr "الجاذبية"
+
+#~ msgid "Solar System"
+#~ msgstr "المجموعة الشمسية"
+
+#~ msgid "Planets"
+#~ msgstr "الكواكب"
+
+#~ msgid "Comets"
+#~ msgstr "المذنبات"
+
+#~ msgid "Asteroids"
+#~ msgstr "الكويكبات"
+
+#~ msgid "Supernova Remnants"
+#~ msgstr "بقايا المستعرات العظمى"
+
+#~ msgid "Planetary Nebulae"
+#~ msgstr "سديم كوكبي"
+
+#~ msgid "Star Forming Nebulae"
+#~ msgstr "سديم التشكيل النجمي"
+
+#~ msgid "Irregular Galaxies"
+#~ msgstr "المجرات غير المنتظمة"
+
+#~ msgid "Elliptical Galaxies"
+#~ msgstr "المجرات الإهليلجية"
+
+#~ msgid "Spiral Galaxies"
+#~ msgstr "المجرات الحلزونية"
+
+#~ msgid "Stars"
+#~ msgstr "النجوم"
+
+#~ msgid "Open clusters"
+#~ msgstr "العناقيد النجمية المفتوحة"
+
+#~ msgid "Globular clusters"
+#~ msgstr "العناقيد النجمية المغلقة"
