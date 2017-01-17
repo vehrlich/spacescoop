@@ -29,7 +29,7 @@ if DJANGO_SETTINGS_CONFIG == 'DEV':
 SITE_URL = 'http://www.spacescoop.org'
 
 ADMINS = (
-    ('Bruno Rino', secrets['ADMIN_EMAIL']),
+    ('Vaclav Ehrlich', secrets['ADMIN_EMAIL']),
 )
 
 # MANAGERS = ADMINS
@@ -43,7 +43,8 @@ ALLOWED_HOSTS = [
     '188.166.22.9',
     'spacescoop',
     'spacescoop.local',
-    'localhost',  # for when I set DEBUG = False in development
+    'localhost',
+    '10.10.10.10',  # for when I set DEBUG = False in development
 ]
 
 
@@ -188,6 +189,12 @@ django.conf.locale.LANG_INFO['tzj'] = {
     'name': 'Tz’utujil',
     'name_local': 'Tz’utujil',
 }
+django.conf.locale.LANG_INFO['ar'] = {
+    'bidi': False,
+    'code': 'ar',
+    'name': 'Arabic',
+    'name_local': 'العربيّة',
+}
 
 
 # the default translation – the final attempt if no better matching translation is found
@@ -201,7 +208,7 @@ LANGUAGES = (
     ('es', 'Spanish'),
     ('pl', 'Polish'),
     # ('sq', 'Albanian'),
-    # ('ar', 'Arabic'),
+    ('ar', 'Arabic'),
     ('bn', 'Bengali'),
     ('bg', 'Bulgarian'),
     # ('zh', 'Chinese'),
