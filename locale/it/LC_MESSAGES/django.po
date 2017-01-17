@@ -109,7 +109,7 @@ msgstr ""
 #~ msgstr "News dall'Universo ai bambini di tutto il Mondo"
 
 #~ msgid "Cool Fact"
-#~ msgstr "Curiosità"
+#~ msgstr "Fatti Fighi"
 
 #~ msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
 #~ msgstr ""
